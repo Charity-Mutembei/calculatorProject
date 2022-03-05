@@ -1,7 +1,34 @@
-#image {
-   background-image: url(/IMAGES/Day\ and\ Night.jpeg);
-   height: 100vh;
-    background-repeat: no-repeat;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Akan-names{
+    width: 100;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/IMAGES/15_02.jpeg);
+    /* made it dimmer. Following a youtube video: https://www.youtube.com/watch?v=CQZxeoQeo5c */
+    background-position: center;
     background-size: cover;
-    filter: blur(2px);
+    height: 100vh;
+}
+.message{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1%;
+    padding-top: 3%;
+    /* font-weight: bold; */
+    font-size: large;
+}
+h1{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+
+}
+.form{
+    /* background-color: black; */
+    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%); */
+    padding-left: 870px;
+    height: 40px;
 }
