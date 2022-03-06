@@ -24,10 +24,19 @@ let h = parseInt (birthYear % 4);
 
 /* let j = prompt ("Enter date of birth. Should be between 1 and 31"); */
 
-if (h < 0) {
- console.log ("Dooms Day =",g);
-}
+// if (h < 0) {
+//  console.log ("Dooms Day =",g);
+// }
 
-else {
-console.log ("Dooms Day =",f);
-} 
+// else {
+// console.log ("Dooms Day =",f);
+// } 
+
+if (h < 0) {
+    alert(`Dooms Day = ${g}`);
+   }
+   
+   else {
+   alert(`Dooms Day = ${f}`);
+   }
+   
