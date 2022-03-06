@@ -6,7 +6,7 @@
 
 .Akan-names{
     width: 100;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(IMAGES/15_02.jpeg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)70%,rgba(0,0,0,0.5)70%), url(IMAGES/15_02.jpeg);
     /* made it dimmer. Following a youtube video: https://www.youtube.com/watch?v=CQZxeoQeo5c */
     background-position: center;
     background-size: contain;
@@ -15,7 +15,8 @@
 .message{
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 1%;
+    /* font-weight: bolder; */
+    margin-left: 0%;
     padding-top: 3%;
 } 
 .row{
@@ -39,7 +40,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
     justify-items: center;
-    margin-left: 20%;
+    margin-left: 0%;
 }
 form{
     background-color: black;
@@ -48,7 +49,8 @@ form{
     height: max-content;
 }
 .btn.btn-warning{
-    margin-left: 40%;
+    margin-left: 50%;
+    align-items: center;
 }
 textarea{
     color: black;
