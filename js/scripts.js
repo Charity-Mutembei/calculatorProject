@@ -6,15 +6,21 @@ let birthYearSection = parseInt (prompt ("Enter your birth year last two numbers
 
 let b = parseInt (birthYear / 12); 
 
-let bb = b.toFixed(0);
+let bb = b.toFixed();
+/* console.log (b); */
+/* let bb = math.floor(b); */
 
-let c = parseInt ((birthYearSection % 12) / 4);
+/* let z = bb * 12; */
+
+let c = parseInt (birthYearSection % 12) / 4;
+
+let u = c.toFixed();
 
 let d 
-d = parseInt (a + bb + c);
+d = parseInt (a + bb + u);
 
 let e 
-e = parseInt (a + bb + c + 2);
+e = parseInt (a + bb + u + 2);
 
 let f = parseInt (d % 7);
 
@@ -24,19 +30,11 @@ let h = parseInt (birthYear % 4);
 
 /* let j = prompt ("Enter date of birth. Should be between 1 and 31"); */
 
-// if (h < 0) {
-//  console.log ("Dooms Day =",g);
-// }
-
-// else {
-// console.log ("Dooms Day =",f);
-// } 
-
 if (h < 0) {
-    alert(`Dooms Day = ${g}`);
-   }
-   
-   else {
-   alert(`Dooms Day = ${f}`);
-   }
-   
+ alert(`Dooms Day = ${g}`);
+}
+
+else {
+alert(`Dooms Day = ${f}`);
+}
+
