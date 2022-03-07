@@ -21,6 +21,7 @@ let u = c.toFixed();
 let d 
 d = parseInt (a + bb + u);
 
+
 let e 
 e = parseInt (a + bb + u + 2);
 
