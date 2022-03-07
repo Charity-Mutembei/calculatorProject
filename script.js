@@ -1,3 +1,5 @@
+let consent = confirm ("Would you like to know any day of the week of any year?");
+
 let a = parseInt (prompt ("Enter your century code- 1800 = 5, 1900= 3, 2000 = 2"));
 
 let birthYear = parseInt (prompt ("Enter your birth year e.g 1999, 2000, 1984 etc."));
