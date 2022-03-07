@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(to top, rgba(0,0,0,0.5)70%,rgba(0,0,0,0.5)70%), url(/ASSETS/IMAGES/1315769.webp);
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)70%,rgba(0,0,0,0.5)70%), url(ASSETS/IMAGES/1315769.webp);
     background-position: center;
     height: 100vh;
     background-size: cover;
