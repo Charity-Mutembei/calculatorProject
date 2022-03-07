@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)70%,rgba(0,0,0,0.5)70%), url(/ASSETS/IMAGES/1315769.webp);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    overflow-y: hidden;
+}
+/* div#background{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    
+} */
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+.explain{
+    display: flex;
+    /* flex-direction: row; */
+    border: 1px solid black;
+    height: 300px;
+    width: 60%;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0%;
+    margin-top: 2%;
+    /* border-radius: 10px; */
+    background-color: rgba(0,0,0,0.5);
+    color: antiquewhite;
+    align-items: center;
+
+}
+.explain1{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* height: 300px; */
+    /* width: 800px; */
+    /* justify-content: center; */
+    /* margin-left: 10%; */
+    margin-top: 5%;
+
+}
+#inputForm{
+    display: flex;
+    
+    flex-direction: column;
+    border: 1px solid black;
+    /* solid means its in a continuous line */
+    height: 450px;
+    width: 400px;
+    justify-content: center;
+    margin-left: 60%;
+    margin-right: 40%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 20px;
+    align-items: center;
+}
+#start{
+    width: 150px;
+}
+#button{
+    margin-top: 25px;
+}
+#button:hover{
+    background-color: #E1AD01;
+    color: black;
+}
+.boyGirl{
+    margin-top: 10%;
+}
