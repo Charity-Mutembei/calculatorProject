@@ -31,10 +31,10 @@ let h = parseInt (birthYear % 4);
 /* let j = prompt ("Enter date of birth. Should be between 1 and 31"); */
 
 if (h < 0) {
- alert(`Dooms Day = ${g}`);
+ alert(`Write this down = ${g}`);
 }
 
 else {
-alert(`Dooms Day = ${f}`);
+alert(`Write this down = ${f}`);
 }
 
