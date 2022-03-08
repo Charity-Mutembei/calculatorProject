@@ -24,6 +24,8 @@ function calculation() {
     }
 }
 calculation();
+
+console.log(newDate.getDay());
 // function calculation () {
 //     let date = "mm/dd/yyyy";
 // let cc = parseInt(date.slice(5,7));

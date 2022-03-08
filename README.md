@@ -7,7 +7,7 @@
 The webpage is to run alright. If the github fails, the code runs perfectly when in the VS Code and launched on the liver server. 
 On the event the provided link does not show the pompts, consider cloning the repository, installing a VS Code and its live server extension for an easy run of the code and the right output. 
 ## Known Bugs
-The JavaScript code does not seem to take effect in the GitHub repo. Nonetheless, it does work in the live Serve - Vs Code. 
+The date resent itself at 01, 01, 0001, even when you try and key in the "0" meant to bring up the "invalid date" message.  
 ## Technologies Used
 This projects makes use of the HTML, CSS, and JavaScript. The inline styling is not as used hence the styling happens in the css while the JavaScript calculates the dates to be used alongside the information provided on the webpage. 
 With the Doomsday method, the user can caculate more than their birth days in the Ghanian form. 
